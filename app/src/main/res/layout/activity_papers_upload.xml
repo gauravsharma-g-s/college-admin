@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".papersUpload">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/upload_paper_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@color/light_orange_2"
+                android:drawableTop="@drawable/notice_upload"
+                android:text="@string/paper_upload"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/dark_orange" />
+
+            <Button
+                android:id="@+id/uploaded_paper_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@color/light_orange_2"
+                android:drawableTop="@drawable/notice_uploaded"
+                android:text=".pdf"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/dark_orange" />
+        </RelativeLayout>
+
+
+        <EditText
+            android:id="@+id/fileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/light_orange_2"
+            android:hint="Enter paper Name"
+            android:layout_marginTop="100dp"
+            android:inputType="textCapWords"
+            android:textColor="@color/dark_orange" />
+        <EditText
+            android:id="@+id/semName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/light_orange_2"
+            android:hint="Enter Semester"
+            android:layout_marginTop="100dp"
+            android:inputType="number"
+            android:textColor="@color/dark_orange" />
+        <EditText
+            android:id="@+id/paperYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/light_orange_2"
+            android:hint="Enter Paper Year"
+            android:layout_marginTop="100dp"
+            android:inputType="number"
+            android:textColor="@color/dark_orange" />
+
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="@android:style/Widget.Holo.Light.ProgressBar.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/cancel_paper_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@color/light_orange_2"
+            android:text="@string/cancel"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/dark_orange" />
+
+        <Button
+            android:id="@+id/upload_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@color/light_orange_2"
+            android:text="@string/upload"
+            android:textColor="@color/dark_orange" />
+
+    </LinearLayout>
+</ScrollView>

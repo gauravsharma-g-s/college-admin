@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:layout_editor_absoluteX="-194dp"
+    tools:layout_editor_absoluteY="-130dp">
+
+    <ImageView
+        android:id="@+id/college_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/college_image"
+        android:src="@drawable/college_image" />
+
+    <LinearLayout
+        style="@style/linearLayoutMargin"
+        android:id="@+id/linearlayout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/college_image"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/teachers"
+            style="@style/button"
+            android:text="@string/add_teachers" />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/notice"
+            style="@style/button"
+            android:text="@string/notice_upload" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearLayoutMargin"
+        android:id="@+id/linearlayout_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearlayout_1"
+        android:orientation="horizontal">
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/gallery"
+        style="@style/button"
+        android:text="@string/gallery" />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/paper"
+            style="@style/button"
+            android:text="@string/papers"/>
+    </LinearLayout>
+</RelativeLayout>

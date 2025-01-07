@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">College Admin</string>
+    <!-- College Image Description -->
+    <string name="college_image">College Image Description</string>
+    <string name="add_teachers">Teachers</string>
+    <string name="notice_upload">Notice</string>
+    <string name="teachers">Teachers</string>
+    <string name="gallery">Gallery</string>
+
+    <string name="floats">Floating Action Button</string>
+    <string name="papers">Papers</string>
+    <string name="paper_upload">Upload Paper</string>
+    <string name="image">Teacher Image</string>
+    <string name="imageAdd">Adding Teacher Image</string>
+    <string name="overview">Overview</string>
+    <string name="add_name">Name</string>
+    <string name="add_email">Email</string>
+    <string name="gender">Gender</string>
+    <string name="qualification">Qualification</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+    <string name="teacherId">Id</string>
+    <string name="teacher_id">Teacher Id</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="edit">Editing Button</string>
+    <string name="delete">Delete Button</string>
+    <string name="update">Save</string>
+    <!-- Notice Upload and Upload strings -->
+    <string name="notice_upload_">Upload Notice</string>
+    <string name="upload">Upload</string>
+    <string name="cancel">Cancel</string>
+    <string name="image_selection_text">Please select image</string>
+    <string-array name="genderSpinner">
+        <item>@string/other</item>
+        <item>@string/male</item>
+        <item>@string/female</item>
+    </string-array>
+</resources>
